@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: rgb(168, 168, 192);
+} */
+ html{
+    font-size: 100%;
+ }
+header{
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    height: auto;
+    padding-bottom: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex .image{
+    margin-top: 13px;
+    margin-left: 2rem;
+    background-color: aquamarine;
+}
+.image img{
+    width: 10rem;
+}
+.search_box{
+    display: flex;
+    margin-top: 13px; /* Centers horizontally */
+    width: 18rem; /* Adjust width as needed */
+    margin-left: 1rem;
+}
+
+.search_box i{
+    background-color: rgb(214, 212, 212);
+  height: 18px;
+  width: 30px;
+  border-radius: 10px 0 0 10px;
+  padding-left: 6px;
+  padding-top: 2px;
+  border: 1px solid rgb(179, 174, 174);
+  cursor: pointer;
+  border-right-color: transparent;
+  color: rgb(129, 129, 129);
+  font-size: 16px;
+}
+.search_box input{
+    border-radius: 0 10px 10px 0;
+  height: 22px;
+  border: 1px solid rgb(179, 174, 174);
+  padding: 0.31rem;
+  width: 16rem;
+    background-color: rgb(214, 212, 212);
+    border-left-color: transparent;
+    
+}
+.search_box input:focus{
+    border-color: rgb(179, 174, 174); 
+  outline: none; 
+  border-left-color: transparent;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); */
+}
+.drop{
+    margin-top: 15px;
+    
+    margin-right: 3rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.drop button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+button span{
+    color: blue;
+}
+button span i{
+    color: black;
+}
+
+.signup{
+    border: 1px solid black;
+    width: 50rem;
+    height: auto;
+    margin-left: 10rem;
+ 
+    margin-right: 8rem;
+}
+.signup p{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.cross{
+    width: 22px;
+    margin-top: 20px;
+    margin-left: 58.8rem;
+    margin-bottom: 0;
+}
+.cross:hover{
+    background-color: red;
+   border: none;
+  outline: none; 
+  
+}
+
+.container .para{
+    font-size: 1.3rem;
+    margin: 1rem;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+.account{
+    margin: 1rem;
+}
+.account span{
+    margin-top: 1.5rem;
+    font-size: 1.01rem;
+    
+}
+.account button{
+    background-color: white;
+    border: none;
+    color: blue;
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+.show-border {
+    border: 1px solid black; /* Border to show on click */
+}
+.form input{
+    width: 24rem;
+    height: 30px;
+    margin-left: 0rem;
+    margin-right: 0;
+    margin-bottom: 5px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 174, 174);
+    padding-left: 5px;
+}
+.form input:focus{
+
+  outline: none; 
+    border: 1px solid rgb(179, 174, 174);
+  
+}
+.form .input{
+    width: 11.89rem;
+    margin-right: 0;
+}
+.form .input1{
+    margin-left: 0;
+}
+.img img{
+    height: 20rem;
+    width: 20rem;
+}
+.col{
+    display:table-column-group;
+}
+
+
+.form1{
+    border: 1px solid rgb(179, 174, 174);
+    width: 24.5rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.form1 input{
+    width: 21rem;
+    border: none;
+    margin-left: 0;
+}
+.form1 input:focus{
+    border: none;
+}
+.button{
+    width: 24rem;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(38, 183, 240);
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.button:hover{
+    background-color: blue;
+}
+.logo{
+   
+    margin-left: 1rem;
+    height: 30px;
+    width: 24rem;
+    margin-bottom: 0.2rem;
+    
+}
+.logo span img{
+    width: 20px;
+    height: 20px;
+    margin-left: 3rem;
+    margin-top: 5px;
+    
+}
+.logo p{
+    margin-left: 7px;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-right: 1rem;
+}
+.set .p{
+    
+    margin-left: 20rem;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+.ad{
+    padding-left: 14rem;
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+.show-border1{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.grn{
+    background-color: rgb(234, 252, 234);
+    height: 30px;
+}
+.green{
+    color: green;
+}
+.hide{
+    display: none;
+}
+
+.sec {
+    background-image: url(2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 481px;
+    display: flex;
+    color: white;
+    
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.sec_para{
+    padding-top: 300px;
+    color: white;
+    font-size: 32px;
+    
+}
+.sec_para p{
+    margin-left: 4rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.separa{
+    font-size: 24px;
+}
+.bold{
+    font-weight: bold;
+}
+section ul{
+    display: flex;
+    justify-content: space-between;
+    
+    list-style-type: none;
+    gap: 1.2rem;
+    padding-left: 7rem;
+    margin-top: 15px;
+    
+}
+
+.line{
+    height: 0;
+ 
+    border: 1px solid rgb(170, 168, 168);
+    margin-top: 15px;
+    margin-left: 7rem;
+    margin-right: 9rem;
+}
+
+section ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+section ul li a:hover{
+    text-decoration: underline;
+}
+.li{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+    
+}
+.mr_right{
+    margin-right: 10rem;
+    margin-left: 2rem;
+    display: flex;
+}
+.mr_right button{
+    width: 6.9rem;
+    height: 40px;
+    font-size: 0.9rem;
+    margin-left: 0.4rem;
+    
+}
+.clr span{
+    color: black;
+}
+.bg-blue{
+    background-color: rgb(49, 49, 235);
+    color: white;
+    border: 1px solid black;
+}
+.bg-blue:hover{
+    background-color: blue;
+}
+.bg-blue span{
+    color: white;
+}
+.component{
+    margin-left: 7rem;
+    margin-top: 20px;
+    margin-right: 1rem;
+    width: 35rem;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.component img{
+    width: 100%;
+}
+.component p{
+    font-size: 26px;
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.component .flex p{
+    margin-right: 1.4rem;
+}
+.component .flex .dot{
+    cursor: pointer;
+}
+.component span{
+    font-size: 19px;
+    font-weight: 0;
+}
+.social{
+    margin-left: 1rem;
+    margin-right: 1.4rem;
+    display: flex;
+}
+.social img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.social p{
+    font-size: 18px;
+}
+
+.social button{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.flex1{
+    display: flex;
+}
+
+.extra{
+    width: 90px;
+    border: 1px solid black;
+    padding-left: 10px;  
+    padding-bottom: 10px;
+    padding-top: 5px;
+    
+}
+.extra span{
+    font-size: 16px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .dropdown-toggle{
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-align: left;
+    width: 120%;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+.mar{
+    margin-right: 1rem;
+}
+.fl{
+    display: flex;
+}
+.grp{
+    width: 18rem;
+    margin-left: 2rem;
+    margin-top: 16px;
+    
+}
+.location{
+    padding: 10px;
+    margin-left: 20px;
+}
+.location input{
+    height: 30px;
+}
+.noti{
+    display: flex;
+    margin-left: 25px;
+    color: #aaa8a8;
+}
+.line1{
+    border: 1px solid #aaa8a8 ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.noti p{
+    margin-left: 10px;
+    color: black;
+}
+.recommended{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.recommended span{
+    margin-left: 10px;
+    color: #333333;
+}
+.setpro{
+    margin-top: 20px;
+}
+.setpro p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.social .follow{
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #333333;
+}
+.s1{
+    margin-top: -25px;
+}
+.see{
+    color: blue;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.mtop{
+    margin-top: 0;
+}
+.flexi{
+    display: flex;
+    margin-left: 1rem;
+}
+.flexi i{
+    margin-right: 10px;
+}
+.flexi span{
+    padding-right: 1.2rem;
+}
+.mtop .visit{
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mtop .apply{
+    color: green;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.setHight{
+    margin-bottom: 100px;
+}
+@media (max-width: 1014px) {
+    .component{
+        width: auto;
+    }
+    .grp{
+        display: none;
+    }
+  }
+
+@media (max-width: 998px) {
+    html{
+        font-size: 75%
+    }
+  }
+  @media (max-width: 762px) {
+    html{
+        font-size: 55%
+    }
+  }
+  @media (max-width: 520px) {
+    html{
+        font-size: 45%
+    }
+    .logo p{
+       
+        font-size: 12px;
+        
+    }
+  }
